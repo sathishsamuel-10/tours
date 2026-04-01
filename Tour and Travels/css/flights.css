@@ -1,0 +1,282 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+ .navbar-nav {
+     width: 100%;
+     justify-content: center;
+ }
+
+ .nav-item {
+     padding-right: 40px;
+ }
+
+ .navbar input {
+     width: 250px;
+ }
+
+ .navbar a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     text-align: center;
+
+ }
+
+ .navbar a:hover {
+     color: rgb(0, 76, 255);
+
+ }
+
+ /* hero section start */
+
+ .hero-section {
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+         url('../images/flights/b1.jpg');
+     background-size: cover;
+     background-position: center;
+     padding: 100px 0;
+     color: white;
+
+ }
+
+ .booking-container {
+     background: white;
+     color: #333;
+     padding: 20px;
+     border-radius: 4px;
+ }
+
+ /* Connecting the inputs like the screenshot */
+ .input-group-custom {
+     display: flex;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     overflow: hidden;
+ }
+
+ .input-group-custom .form-control,
+ .input-group-custom .form-select {
+     border: none;
+     border-right: 1px solid #ccc;
+     border-radius: 0;
+     padding: 10px 15px;
+ }
+
+ .input-group-custom .form-control:last-child {
+     border-right: none;
+ }
+
+ .hero-section .btn-search {
+     background-color: #3b3be3;
+     color: white;
+     border: none;
+     padding: 0 40px;
+     text-transform: lowercase;
+     font-weight: bold;
+ }
+
+ .hero-section .btn-search:hover {
+     background: #2c2cc9;
+     color: white;
+ }
+
+ /* Offer Section */
+ .offer-section {
+     padding: 40px 0;
+     background: white;
+     text-align: center;
+
+ }
+
+ .profile-img {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+
+ .vertical-divider {
+     border-left: 2px solid #3b3be3;
+     height: 80px;
+     display: inline-block;
+     margin: 0 30px;
+ }
+
+ .offer-section .discount-btn {
+     background-color: #3b3be3;
+     border: 2px solid black;
+     color: #ffffff;
+     border: none;
+     padding: 8px 25px;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+
+ .offer-section .discount-btn:hover {
+     background: #2c2cc9;
+     color: white;
+ }
+
+ /* grid start */
+ .container-grid {
+     margin-bottom: 30px;
+     padding: 30px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+
+ .package-card1 {
+     background: #fff;
+     border-radius: 6px;
+     transition: 0.3s;
+
+ }
+
+ .package-card1:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ }
+
+ .package-card1 img {
+     width: 100%;
+     height: 250px;
+     object-fit: cover;
+
+ }
+
+ .card-content {
+
+     padding: 15px;
+     border: 1px solid rgba(0, 0, 0, 0.5);
+     border-top: 0;
+     border-radius: 0px 0px 6px 6px;
+
+
+ }
+
+
+ .text-red {
+     color: rgba(205, 30, 30, 1);
+ }
+
+ /* footer start */
+
+ .footer {
+margin-top: 50px;
+     background-color: #6f625e;
+     color: #fff;
+     padding: 50px 0 20px;
+ }
+
+ .footer h5 {
+     font-weight: 600;
+     margin-bottom: 20px;
+ }
+
+ .footer ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ .footer ul li {
+     margin-bottom: 10px;
+ }
+
+ .footer ul li a {
+     color: #ddd;
+     text-decoration: none;
+     transition: 0.3s;
+ }
+
+ .footer ul li a:hover {
+     color: #fff;
+ }
+
+ .footer-logo img {
+     width: 250px;
+
+ }
+
+ .booking-text {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     font-weight: 600;
+     margin-top: 20px;
+ }
+
+ .contact-item {
+     display: flex;
+     gap: 12px;
+     margin-bottom: 15px;
+ }
+
+ .contact-item i {
+     font-size: 18px;
+     margin-top: 4px;
+ }
+
+ .footer-bottom {
+     border-top: 1px solid #ccc;
+     margin-top: 0px;
+     padding-top: 20px;
+     display: flex;
+     text-align: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .social-icons a {
+     color: #fff;
+     font-size: 30px;
+     margin-left: 15px;
+     display: inline-block;
+ }
+
+ .social-icons a:hover {
+     opacity: 0.8;
+ }
+
+
+ /* fooetr end */
+
+ /* Responsive adjustments */
+ @media (max-width: 992px) {
+      .navbar input {
+        width: 100%;
+    }
+     .input-group-custom {
+         flex-direction: column;
+         border: none;
+     }
+
+     .input-group-custom .form-control {
+         border: 1px solid #ccc !important;
+         margin-bottom: 10px;
+         border-radius: 4px !important;
+     }
+
+     .vertical-divider {
+         display: none;
+     }
+
+     .btn-search {
+         width: 100%;
+         padding: 12px;
+     }
+
+      
+    /* fooetr */
+    .footer-bottom {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+ }

@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-nav {
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-item {
+    padding-right: 40px;
+}
+
+.navbar input {
+    width: 250px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.navbar a:hover {
+    color: rgb(0, 76, 255);
+}
+
+/* conatiner start */
+.left-section {
+    background: url('../images/loyalty/b1.jpg') center/cover no-repeat;
+      height: 100vh;
+  color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.overlay-content {
+    padding: 60px 40px;
+}
+
+.overlay-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.overlay-content h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.bottom-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.right-section {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 60px 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.right {
+
+    padding: 60px 40px;
+
+}
+
+
+.logo img {
+
+    max-width: 200px;
+    margin-right: 10px;
+}
+
+.logo .logo1 {
+
+    width: 500px;
+    margin-right: 10px;
+}
+
+.form-box {
+    max-width: 600px;
+}
+
+.form-control1 {
+    width: 100%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(217, 217, 217, 1);
+    border: 2px solid black;
+
+    padding: 20px;
+
+}
+
+.otp-btn {
+    background: rgba(114, 106, 106, 1);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.otp-btn:hover {
+    background: rgb(89, 79, 79);
+}
+
+.arrow-list {
+    list-style: none;
+    padding: 0;
+}
+
+.arrow-list li::before {
+    content: "→ ";
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+/* footer start */
+
+.footer {
+  
+    background-color: #6f625e;
+    color: #fff;
+    padding: 50px 0 20px;
+}
+
+.footer h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #ddd;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer-logo img {
+    width: 250px;
+
+}
+
+.booking-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.contact-item i {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ccc;
+    margin-top: 0px;
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.social-icons a:hover {
+    opacity: 0.8;
+}
+
+
+/* fooetr end */
+/* Responsive adjustments */
+@media (max-width: 992px) {
+
+    .navbar input {
+        width: 100%;
+    }
+
+    /* fooetr */
+    .footer-bottom {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-box {
+        padding: 20px;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .left-section {
+        min-height: 500px;
+    }
+
+    .overlay-content h1 {
+        font-size: 40px;
+    }
+
+    .overlay-content h2 {
+        font-size: 20px;
+    }
+
+    .right-section {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width:425px) {
+    .left-section {
+        min-height: 300px;
+    }
+
+    .logo img {
+
+        max-width: 100px;
+        margin-right: 10px;
+    }
+
+    .logo .logo1 {
+
+        width: 80px;
+        margin-right: 10px;
+    }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+
+    .navbar input {
+        width: 100%;
+    }
+
+    /* fooetr */
+    .footer-bottom {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-box {
+        padding: 20px;
+    }
+}

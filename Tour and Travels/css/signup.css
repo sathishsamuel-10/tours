@@ -1,0 +1,236 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+
+ .navbar-nav {
+     width: 100%;
+     justify-content: center;
+ }
+
+ .nav-item {
+     padding-right: 40px;
+ }
+
+ .navbar input {
+     width: 250px;
+ }
+
+ .navbar a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     text-align: center;
+
+ }
+
+ .navbar a:hover {
+     color: rgb(0, 76, 255);
+
+ }
+
+ /* login statr */
+ .login {
+     background: #ffffff;
+     margin-top: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: Arial, sans-serif;
+
+
+ }
+
+ .login-box {
+     width: 100%;
+     max-width: 500px;
+     background: transparent;
+     text-align: center;
+
+ }
+
+ .login-box h2 {
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+
+ .login-box a {
+     color: #4a5bdc;
+     text-decoration: none;
+ }
+
+ .container .form-control {
+     border: none;
+     border-bottom: 2px solid #999;
+     border-radius: 0;
+     background: transparent;
+     margin-bottom: 20px;
+     box-shadow: none;
+ }
+
+.robot-box {
+      border: 1px solid #999;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      border-radius: 4px;
+      gap: 15px;
+    background: #fff;
+    font-size: 20px;
+    }
+
+    .robot-box input {
+      
+      width: 30px;
+      height: 30px;
+    }
+
+ .login-btn {
+     width: 100%;
+     background:  #5b6ee1;
+     color: white;
+     border: none;
+     padding: 20px;
+     border-radius: 4px;
+     margin-top: 30px;
+ }
+ .login-btn:hover{
+    background: #3d4dc7;
+     
+ }
+
+ .divider {
+     display: flex;
+     align-items: center;
+     margin: 30px 0;
+ }
+
+ .divider::before,
+ .divider::after {
+     content: "";
+     flex: 1;
+     border-bottom: 2px solid #aaa;
+ }
+
+ .divider span {
+     margin: 0 10px;
+     color: #555;
+ }
+
+ .social-icons i {
+     font-size: 30px;
+     margin: 0 10px;
+     cursor: pointer;
+     color: #4a5bdc;
+ }
+
+ .forgot {
+     text-align: left;
+     font-size: 14px;
+     margin-top: -10px;
+ }
+
+ /* footer start */
+
+ .footer {
+     margin-top: 50px;
+     background-color: #6f625e;
+     color: #fff;
+     padding: 50px 0 20px;
+ }
+
+ .footer h5 {
+     font-weight: 600;
+     margin-bottom: 20px;
+ }
+
+ .footer ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ .footer ul li {
+     margin-bottom: 10px;
+ }
+
+ .footer ul li a {
+     color: #ddd;
+     text-decoration: none;
+     transition: 0.3s;
+ }
+
+ .footer ul li a:hover {
+     color: #fff;
+ }
+
+ .footer-logo img {
+     width: 250px;
+
+ }
+
+ .booking-text {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     font-weight: 600;
+     margin-top: 20px;
+ }
+
+ .contact-item {
+     display: flex;
+     gap: 12px;
+     margin-bottom: 15px;
+ }
+
+ .contact-item i {
+     font-size: 18px;
+     margin-top: 4px;
+ }
+
+ .footer-bottom {
+     border-top: 1px solid #ccc;
+     margin-top: 0px;
+     padding-top: 20px;
+     display: flex;
+     text-align: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .social-icons a {
+     color: #fff;
+     font-size: 30px;
+     margin-left: 15px;
+     display: inline-block;
+ }
+
+ .social-icons a:hover {
+     opacity: 0.8;
+ }
+
+
+ /* fooetr end */
+ /* Responsive adjustments */
+ @media (max-width: 992px) {
+  .navbar input {
+        width: 100%;
+    }
+
+     /* fooetr */
+     .footer-bottom {
+         text-align: center;
+         flex-direction: column;
+         gap: 10px;
+     }
+
+     .social-icons {
+         margin-top: 10px;
+     }
+ }
+
+ @media (max-width: 576px) {
+     .login-box {
+         padding: 20px;
+     }
+ }
